@@ -12,7 +12,7 @@ This part of the workflow ensures your AI is always up-to-date with your latest 
 5. Embeddings Google Gemini: Each text chunk is converted into a vector embedding (a numerical representation) using the powerful Google Gemini Embeddings model.
 6. Pinecone Vector Store: The generated embeddings are then inserted into the Pinecone vector database under the namespace "FAQ" in the "demo" index, making them instantly searchable by the AI agent.
 
-## it works: The Conversational AI Agent
+## How it works: The Conversational AI Agent
 This part of the workflow handles real-time questions and answers using the information stored in your vector database.
 
 1. When chat message received: The workflow is triggered by an incoming chat message (like from Telegram, Slack, or any supported chat platform).
